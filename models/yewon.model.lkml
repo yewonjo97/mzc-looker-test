@@ -14,13 +14,7 @@ explore: bumblebee {}
 
 explore: bumblebee_cost_top5_by_product {}
 
-explore: bumblebee_data_trans_4 {}
-
 explore: bumblebee_data_trans_5 {}
-
-explore: bumblebee_data_trans_back {}
-
-explore: ecommerce_sample_2 {}
 
 explore: test_partition {
   join: test_partition__products {
