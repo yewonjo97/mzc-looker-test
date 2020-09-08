@@ -145,6 +145,7 @@ view: bumblebee {
   dimension: s3_class {
     type: string
     sql: ${TABLE}.S3_class ;;
+    html: <img src="https://logo-core.clearbit.com/looker.com" /> ;;
   }
 
   dimension: s3_request {
