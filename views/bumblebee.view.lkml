@@ -145,7 +145,7 @@ view: bumblebee {
   dimension: s3_class {
     type: string
     sql: ${TABLE}.S3_class ;;
-    html: <img src="https://image-joey.s3.ap-northeast-2.amazonaws.com/mzc-black.png/" /> ;;
+    html: <img src="https://image-joey.s3.ap-northeast-2.amazonaws.com/mzc-white.png/" /> ;;
 
   }
 
