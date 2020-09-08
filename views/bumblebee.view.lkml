@@ -5,6 +5,7 @@ view: bumblebee {
   dimension: account_name {
     type: string
     sql: ${TABLE}.Account_Name ;;
+    html:<img src= https://image-joey.s3.ap-northeast-2.amazonaws.com/mzc-black.png/> ;;
   }
 
   dimension: api_gateway_type {
@@ -189,10 +190,5 @@ view: bumblebee {
     value_format: "$#,###.00;($#,###.00)"
   }
 
-  dimension: mzc_img {
-    type: string
-    sql: ${TABLE}.homepageurl ;;
-    html:<img src= https://image-joey.s3.ap-northeast-2.amazonaws.com/mzc-black.png/> ;;
-  }
 
 }
