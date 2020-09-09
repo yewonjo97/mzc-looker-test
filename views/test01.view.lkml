@@ -12,4 +12,11 @@ view: test01 {
     type: string
     sql: ${TABLE}.homepageurl ;;
   }
+
+  dimension: looker_image {
+    type: string
+    sql: ${TABLE}.homepage_url;;
+    html: <img src="https://logo-core.clearbit.com/{{value}}" /> ;;
   }
+
+}
