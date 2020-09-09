@@ -15,7 +15,7 @@ view: test01 {
 
   dimension: looker_image {
     type: string
-    sql: ${TABLE}.homepage_url;;
+    sql: ${TABLE}.homepageurl;;
     html: <img src="https://logo-core.clearbit.com/{{value}}" /> ;;
   }
 
