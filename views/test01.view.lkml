@@ -1,5 +1,5 @@
 view: test01 {
-  sql_table_name: `test01.yewon_test`
+  sql_table_name: `yewon_test.test01`
     ;;
 
 
