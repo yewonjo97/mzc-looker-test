@@ -21,7 +21,7 @@ view: test01 {
 
   dimension: dynamic_image {
     type: string
-    sql: ${TABLE}.name;;
+    sql: ${name};;
     html:
         {% if name._value == docker %}
         <img src="https://logo-core.clearbit.com/http://docker.io">
