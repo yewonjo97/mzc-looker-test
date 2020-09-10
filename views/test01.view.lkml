@@ -33,6 +33,8 @@ view: test01 {
         <img src="https://logo-core.clearbit.com/http://www.heroku.com">
         {% elsif name._value == "hubspot"%}
         <img src="https://logo-core.clearbit.com/http://www.hubspot.com">
+        {%else%}
+        <img src= "https://icon-library.com/images/no-image-available-icon/no-image-available-icon-6.jpg">
         {%endif%}
       ;;
   }
