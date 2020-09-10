@@ -23,13 +23,13 @@ view: test01 {
     type: string
     sql: ${name};;
     html:
-        {% if name._value == docker %}
+        {% if name._value == "docker" %}
         <img src="https://logo-core.clearbit.com/http://docker.io">
-        {% elsif name._value == autodesk %}
+        {% elsif name._value == "autodesk" %}
         <img src="https://logo-core.clearbit.com/http://www.autodesk.com">
-        {% elsif name._value == cigna %}
+        {% elsif name._value == "cigna" %}
         <img src="https://logo-core.clearbit.com/http://www.cigna.com">
-        {% elsif name._value == heroku %}
+        {% elsif name._value == "heroku" %}
         <img src="https://logo-core.clearbit.com/http://www.heroku.com">
         {% else %}
         <img src="https://logo-core.clearbit.com/http://www.hubspot.com">
