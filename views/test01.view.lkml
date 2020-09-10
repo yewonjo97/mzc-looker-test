@@ -31,7 +31,7 @@ view: test01 {
         <img src="https://logo-core.clearbit.com/http://www.cigna.com">
         {% elsif name._value == "heroku" %}
         <img src="https://logo-core.clearbit.com/http://www.heroku.com">
-        {% else %}
+        {% elsif name._value == "hubspot"%}
         <img src="https://logo-core.clearbit.com/http://www.hubspot.com">
         {%endif%}
       ;;
